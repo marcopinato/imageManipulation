@@ -54,7 +54,7 @@ def get_logo_center_coordinates(img, logo):
     x = int(w-wL)
     y = int(h-hL)
 
-    # OpenCV uses flip x,y respect to Numpy
+    # OpenCV uses flipped x,y with respect to Numpy
     return y, x
 
 
